@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宠物那点事儿</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script src="js/Pic.js"></script>
+    <script>
+        $(function(){
+            $('.slider-img').Pic({
+                Time: '3000',
+                speed: '800',
+                autoscrooll: true
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="header">
+       <div class="top-r">
+           <ul>
+               <li><a href="#">帮助</a></li>
+               <li><a href="#">设为主页</a></li>
+               <li><a href="#">加入收藏</a></li>
+               <li><a href="#">English</a></li>
+               <li><a href="#" class="login">登录</a></li>
+               <li><a href="#">注册</a></li>
+           </ul>
+       </div>
+</div>
+
+<!--header书写完毕-->
+<div class="wrap">
+    <div class="logo">
+        <div class="logo-l">
+            <a href="#"><img src="images/logo.gif" width="200px" height="90px"></a>
+        </div>
+        <!--logo部分-->
+        <div class="logo-r">
+            <div class="tel"><img src="images/tel.jpg">24小时热线：0571-1234567</div>
+        </div>
+        <!--电话号码部分-->
+    </div>
+
+    <!--logo部分完成-->
+
+    <div class="nav">
+        <div class="nav-all">
+            <ul>
+                <li><a href="http://www.jq-school.com/">首页</a></li>
+                <li><a href="#">关于宠物儿</a></li>
+                <li><a href="#">资讯</a></li>
+                <li><a href="#">专题</a></li>
+                <li><a href="#">窝窝主</a></li>
+                <li><a href="#">爱心</a></li>
+                <li><a href="#">脚印</a></li>
+                <li><a href="#">人才招聘</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--导航结束-->
+    <div class="slider">
+        <div class="slider-img">
+            <ul>
+                <li><a href="#"><img src="images/dog.jpg" alt="正在加载..."></a></li>
+                <li><a href="#"><img src="images/cat-1.jpg" alt="正在加载..."></a></li>
+                <li><a href="#"><img src="images/bird.jpg" alt="正在加载..."></a></li>
+                <li><a href="#"><img src="images/rabbit.jpg" alt="正在加载..."></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 幻灯片后续用jq，这里先结束-->
+
+    <div class="main">
+        <!-- main分3部分：宠物资讯、宠物秀、精华导读-->
+        <div class="news">
+            <!-- 宠物资讯-->
+            <div class="news-title">
+                <h3 class="news-title-left">新闻中心</h3>
+                <span class="news-title-right"><a href="#">More&gt;&gt;</a></span>
+            </div>
+            <!--标题结束-->
+            <div class="news-big">
+                <img src="images/news-big.jpg" width="120px" height="100px" class="news-big-img">
+                <h4><a href="#" class="news-big-head">握爪—开启萌宠全新体验</a></h4>
+                <p class="news-big-content">上线时间：2016年3月28日<br>
+                    活动针对人群：爱宠者<br>
+                    优惠力度：APP免费下载，充100送10，持续5天
+                    <a href="#">点击更多</a>
+                </p>
+            </div>
+            <div class="news-list">
+                <ul>
+                    <li><span>2016-01-06</span><a href="#">[快讯]2016年第三届亚洲宠物水族博览...</a></li>
+                    <li><span>2016-01-06</span><a href="#">[养护]怎样给宠物接疫苗？</a></li>
+                    <li><span>2016-01-06</span><a href="#">[焦点]伦敦地铁一小猫求被摸！</a></li>
+                    <li><span>2016-01-06</span><a href="#">[专题]宠物的幸福生活^_^</a></li>
+                    <li><span>2016-01-06</span><a href="#">[有奖]谁是最可爱的窝窝达人！</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--资讯结束，宠物秀开始-->
+        <div class="show">
+            <!--宠物秀开始-->
+            <div class="show-title">
+                <h3 class="show-title-left">宠物秀</h3>
+                <span class="show-title-right"><a href="#">More&gt;&gt;</a></span>
+            </div>
+            <div class="show-img">
+                <div class="imgimg">
+                    <a href="#"><img src="images/smalldog.jpg" width="80px" height="80px" class="img"></a>
+                    <a href="#"><img src="images/cat.jpg" width="80px" height="80px" class="img"></a>
+                    <a href="#"><img src="images/fish.jpg" width="80px" height="80px" class="img"></a>
+                </div>
+            </div>
+            <!--宠物完毕-->
+            <!--开始账户咯-->
+            <div class="account">
+                <div class="account-all">
+                    <ul>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!--狗带-->
+        <div class="reader">
+            <div class="reader-title">
+                <h3 class="reader-title-left">精华导读</h3>
+                <span class="reader-title-right"><a href="#">More&gt;&gt;</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-up">
+        <ul>
+            <li class="footer-up-one">关于
+                <ul>
+                    <li>公司简介</li>
+                    <li>爱宠故事</li>
+                    <li>公司地址</li>
+                    <li>宠物保护</li>
+                </ul>
+            </li>
+            <li  class="footer-up-one">专题报告
+                <ul>
+                    <li>专题日志</li>
+                    <li>专题相册</li>
+                    <li>专题视频</li>
+                    <li>专题爱宠</li>
+                </ul>
+            </li>
+            <li  class="footer-up-one">留言专栏
+                <ul>
+                    <li>意见反馈</li>
+                    <li>问题留言</li>
+                    <li>媒体联络</li>
+                    <li>在线客服</li>
+                </ul>
+            </li>
+            <li class="four">关注我们
+                <ul class="code">
+                    <li><span>官方网站</span><img src="images/phone.jpg" width="50px" height="50px"></li>
+                    <li><span>手机网站</span><img src="images/com.jpg" width="50px" height="50px"></li>
+                    <li><span>APP下载</span><img src="images/APP.png" width="50px" height="50px"></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="foot-down">
+        <div class="foot-down-down">
+            <div class="btn">
+                <a href="#">关于我们</a>-<a href="#">广告合作</a>-<a href="#"><img src="images/qq.jpg" width="15px" height="15px">联系我们</a>-<a href="#">小黑屋</a>-<a href="#">版权说明</a>-<a href="#">广告合作</a>-<a href="#">友情链接</a>-<a href="#">群众调查</a>-<a href="#">投诉转移</a>
+            </div>
+            <div class="copyright">
+                copyright@2012-2020 commpany INC. GMT+8, 2016-1-6 14:22 , Processed in 0.073486 second(s).
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
