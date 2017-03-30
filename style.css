@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+body{
+    background-color: #F5F5F5;
+    font-family: serif sans-serif;
+}
+.header{
+    width: 100%;
+    height: 20px;
+    background-color: gainsboro;
+    border-bottom: 1px solid darkgray;
+    margin-top: 0;
+}
+.login{
+    border-right: 2px solid gray;
+    padding-right: 10px;
+}
+.top-r{
+    width: 1000px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.top-r ul{
+    padding-right: 2px;
+    float: right;
+}
+.top-r ul li{
+    text-decoration: none;
+    float: right;
+    padding-right: 10px;
+    list-style: none;
+}
+.top-r ul li a,.top-rl a{
+    color: dimgray;
+    text-decoration: none;
+}
+.top-r ul li a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: large;
+}
+
+/*header加入收藏书写完毕*/
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    height: 90px;
+    border: 1px solid lightgoldenrodyellow;
+    background-color: white;
+}
+.logo-l{
+    width: 200px;
+    height: 90px;
+    float: left;
+    display: inline;
+}
+.logo-r{
+    width: 400px;
+    height: 90px;
+    float: right;
+    display: inline;
+}
+.tel{
+    font-size: 20px;
+    color: grey;
+    margin: 50px 10px 20px 2px;
+    font-family: Arial;
+    float: right;
+    display: inline;
+}
+.tel img{
+    padding-right: 10px;
+}
+/*logo部分写完*/
+
+.nav{
+    height: 40px;
+    background-color: saddlebrown;
+    border-radius: 5px;
+}
+.nav-all ul li{
+    list-style: none;
+    padding: 8px 30px;
+    display: inline;
+    float: left;
+}
+.nav-all ul{
+    text-align: center;
+    padding-left: 40px;
+}
+.nav-all ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+.nav-all ul li a:hover{
+    color: chartreuse;
+    font-size: large;
+    font-weight: 900;
+}
+
+/*导航书写完毕*/
+.slider{
+    margin-top: 5px;
+}
+.slider-img a img{
+    border-radius: 5px;
+}
+.slider-img{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.slider-img ul{
+    list-style-type: none;
+    float: left;
+    overflow: hidden;
+}
+.slider-img ul li{
+    width: 100%;
+}
+.slider-img ul li img{
+    width: 100%;
+}
+.main{
+    height: 300px;
+    margin-top: 5px;
+}
+.news ,.show,.reader{
+    width: 325px;
+    height: 300px;
+    float: left;
+    display: inline;
+    border: 1px solid saddlebrown;
+    margin: 3px;
+}
+.news-title ,.reader-title,.show-title{
+    background-color: saddlebrown;
+    height: 30px;
+}
+.news-title-left, .reader-title-left,.show-title-left{
+    font-size: 15px;
+    padding: 5px;
+    float: left;
+    color: white;
+}
+.news-title-right, .reader-title-right,.show-title-right{
+    font-size: 10px;
+    float: right;
+    padding: 10px;
+}
+.news-title-right a, .reader-title-right a,.show-title-right a{
+    color: white;
+    text-decoration: none;
+}
+.news-big-img{
+    padding-top: 5px;
+    padding-left: 2px;
+    float: left;
+}
+.news-big-head{
+    color: saddlebrown;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.news-big{
+    padding: 5px;
+    line-height: 20px;
+}
+.news-big-content{
+    padding-left: 2px;
+    color: dimgray;
+    text-align: left;
+}
+.news-big-content a{
+    text-decoration: none;
+    color: saddlebrown;
+    float: right;
+    padding: 5px;
+}
+.news-big a:hover{
+    font-size: large;
+    opacity: 0.5;
+}
+.news-big-content a:hover{
+    color: chartreuse;
+}
+/*新闻资讯中的大新闻已经完成*/
+
+.news-list{
+    margin: 3px;
+    line-height: 18px;
+    padding: 3px;
+    color: dimgray;
+}
+.news-list span{
+    float: right;
+    padding-left: 10px;
+}
+.news-list ul{
+    padding: 5px;
+    list-style-position:inside
+}
+.news-list ul li{
+    padding: 2px;
+}
+.news-list ul li a{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 13px;
+}
+.news-list ul li a:hover{
+    color: saddlebrown;
+    font-size: large;
+    font-weight: 800;
+}
+
+/*宠物秀开始*/
+.img{
+    border: 2px solid saddlebrown;
+    border-radius: 50px;
+}
+.show-img{
+    display: inline;
+}
+.imgimg{
+    float: left;
+    padding-top: 2px;
+    /*text-align: center;*/
+    padding-left: 30px;
+}
+.imgimg a img:hover{
+    width: 90px;
+    height: 90px;
+    border: 2px solid red;
+    border-radius: 0px;
+}
+
+
+
+
+/*宠物秀结束*/
+.footer{;
+    width: 100%;
+    height: 220px;
+    background-color: gainsboro;
+    margin-top: 10px;
+    border-top: 1px solid darkgray;
+}
+.footer-up{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-up-one{
+    width: 180px;
+    list-style-type: none;
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    padding-right: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: gray;
+    border-right: 1px solid darkgray;
+}
+.footer-up ul li ul li{
+    font-size: 13px;
+    list-style-type: none;
+}
+.code li{
+    display: inline;
+    float: left;
+}
+.four{
+    list-style-type: none;
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: gray;
+}
+.code li{
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    padding: 25px;
+}
+.code{
+    margin-left: 30px;
+}
+.foot-down{
+    width: 1000px;
+    height: 40px;
+    text-align: center;
+    background-color: gainsboro;
+    float: left;
+    margin-top: 5px;
+}
+.btn{
+    text-align: center;
+    width: 1000px;
+    line-height: 15px;
+    font-size: 18px;
+    color: gray;
+    padding-left: 10px;
+}
+.foot-down-down{
+    width: 1000px;
+    text-align: center;
+    padding-left: 100px;
+}
+.btn a{
+    font-size: 12px;
+    color: gray;
+    /*text-decoration: none;*/
+}
+.btn a:hover{
+    color: magenta;
+    font-size: 18px;
+}
+.btn a img:hover{
+    width: 30px;
+    height: 30px;
+}
+.copyright{
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+    padding-left: 10px;
+}
+.swiper-container {
+    width: 1000px;
+    height: 300px;
+}
+
+
+
