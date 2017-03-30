@@ -24,7 +24,7 @@
 <div class="wrap">
     <div class="logo">
         <div class="logo-l">
-            <a href="#"><img src="images/logo.gif" width="200px" height="90px"></a>
+            <a href="#"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490894618017&di=618a25ce0ea9dd3d9dbe34592588f0e0&imgtype=0&src=http%3A%2F%2Fimg01.taopic.com%2F160119%2F235070-160119150I693.jpg" width="200px" height="90px"></a>
         </div>
         <!--logo部分-->
         <div class="logo-r">
@@ -53,9 +53,9 @@
     <!--导航结束-->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/bird.jpg" width="1000px" height="300px"></div>
-            <div class="swiper-slide"><img src="images/cat-1.jpg" width="1000px" height="300px"></div>
-            <div class="swiper-slide"><img src="images/dog.jpg" width="1000px" height="300px"></div>
+            <div class="swiper-slide"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895287576&di=ac2eb6fb137a86dc1f841d8892498d16&imgtype=0&src=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2F20193c5b8742fec8fc560fa23523141e.jpg" width="1000px" height="300px"></div>
+            <div class="swiper-slide"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895375430&di=4cc75163970d7b1a0fcc29fe4a9c0acb&imgtype=0&src=http%3A%2F%2Fimgstore.cdn.sogou.com%2Fapp%2Fa%2F100540002%2F468805.jpg" width="1000px" height="300px"></div>
+            <div class="swiper-slide"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895463760&di=c043f5d8dee6ba27a8228091089f3e7b&imgtype=0&src=http%3A%2F%2Fwww.xiaoxue123.com%2Fzuowen%2Fdiary%2FUploadFiles_6907%2F200806%2F20080610212750724.jpg" width="1000px" height="300px"></div>
         </div>
         <!-- <div class="swiper-pagination"></div> -->
 
@@ -78,7 +78,7 @@
             </div>
             <!--标题结束-->
             <div class="news-big">
-                <img src="images/news-big.jpg" width="120px" height="100px" class="news-big-img">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895577354&di=081e0c1e07eec5dd1e8a3ae63ec0ce89&imgtype=0&src=http%3A%2F%2Fwww.66868.com%2Fuploads%2F2016%2F1116%2F20161116102348811.jpg" width="120px" height="100px" class="news-big-img">
                 <h4><a href="#" class="news-big-head">握爪—开启萌宠全新体验</a></h4>
                 <p class="news-big-content">上线时间：2016年3月28日<br>
                     活动针对人群：爱宠者<br>
@@ -106,9 +106,9 @@
             </div>
             <div class="show-img">
                 <div class="imgimg">
-                    <a href="#"><img src="images/smalldog.jpg" width="80px" height="80px" class="img"></a>
-                    <a href="#"><img src="images/cat.jpg" width="80px" height="80px" class="img"></a>
-                    <a href="#"><img src="images/fish.jpg" width="80px" height="80px" class="img"></a>
+                    <a href="#"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895686805&di=aac524607c0939e8cce2dfeee87cc43c&imgtype=0&src=http%3A%2F%2Fpic34.nipic.com%2F20131026%2F9422601_213613258000_2.jpg" width="80px" height="80px" class="img"></a>
+                    <a href="#"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895801558&di=4c7f21311f328004a4117c2438faf23c&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F95%2F48%2F158PICK58PICrNB_1024.jpg" width="80px" height="80px" class="img"></a>
+                    <a href="#"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490895863265&di=f56d382e516bb7583582313702764054&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110423%2F8886-11042319364135.jpg" width="80px" height="80px" class="img"></a>
                 </div>
             </div>
             <!--宠物完毕-->
